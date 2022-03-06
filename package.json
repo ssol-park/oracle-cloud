@@ -2,11 +2,7 @@
   "name": "server-oracle-cloud",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/app.js",
-    "start-local": "nodemon --exec ts-node src/app.ts",
-    "build": "tsc",
-    "postinstall": "npm run build"
+    "dev": "nodemon src/app.ts"
   },
   "license": "MIT",
   "dependencies": {
